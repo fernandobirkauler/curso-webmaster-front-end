@@ -1,0 +1,33 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+.artigo{
+  width: 100%;/* delimitando a largura (o padrão é px) */
+  height: 100%; /* delimitando a altura (o padrão é px) se tiver muito texto deixar auto*/
+  /*max-width: 500px; largura maxíma ou max-height: 500px; ou altura maxíma*/
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+}
+
+.artigo h1{
+  color: rgb(66, 149, 244);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.artigo p{
+  color: #b4b4b4;
+  text-align: left;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 12px;
+}
